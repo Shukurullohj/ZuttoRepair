@@ -1,0 +1,339 @@
+* {
+	box-sizing: content-box;
+	padding: 0;
+	margin: 0;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+body {
+	background-color: #433d3b61;
+}
+body h4 {
+	font-size: 40px;
+	text-align: center;
+	padding: 30px;
+	color: #fe0000;
+}
+.card {
+	padding: 15px;
+	box-shadow: 0 2px 7px 0 #b0eaff;
+}
+   
+.side {
+	background-size: contain;
+	background: 
+	no-repeat
+	url('')
+}
+.side-header {
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+}
+.side-header .side-icon {
+	align-items: center;
+	display: flex;
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
+.list-group {
+	display: flex;
+	padding: 30px;
+
+}
+.list-item {
+	padding-left: 15px;
+	list-style: none;
+}
+.list-item a{
+	text-decoration: none;
+	color: #fff;
+}
+.sidepage {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.whatwedo .container {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+.btn {
+	text-decoration: none;
+	background-color: #fe0000;
+	padding: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border:0.16em solid #FFFFFF;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 25px;
+	border-radius: 50px;
+}
+.sidepage .btn {
+	margin-left: 45px;
+	margin-bottom: 45px;
+}
+
+.whatwedo h2 {
+	padding-bottom: 15px;
+	text-transform: uppercase;
+}
+.our-services {
+	padding: 100px;
+}
+.our-services .card {
+	border: 3px solid #fe0000;
+	border-radius: 5px;
+	text-align: center;
+}
+.our-services .card img {
+	height: 150px;
+	width: 120px;
+}
+.our-services .card:hover {
+	background-color: #fe0000;
+	border: 3px solid #333;
+	color: #fff;
+}
+.our-fast-safe-service {
+	min-height: 70vh;
+
+}
+.our-fast-safe-service .text{
+	padding-left: 150px;
+	padding-right: 40px;
+}
+.our-fast-safe-service img {
+	height: 70vh;
+}
+
+.our-professionals .container {
+	margin: 70px 100px 0 100px;
+	justify-content: space-around;
+}
+.our-professionals .card {
+	position: relative;
+	margin: 0 30px 60px 30px;
+	padding-top: 60px;
+
+}
+.our-professionals img {
+	border-radius: 150px;
+	position: absolute;
+	top: -70px;
+	left: 90px;
+}
+.our-professionals h5 {
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.our-professionals .professionals-twitter {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 5px;
+}
+
+footer {
+  overflow: hidden;
+  position: relative;
+  height: 70vh;
+  background: #333;
+
+}
+footer li {
+	list-style: none;
+	font-weight: bold;
+	width: 220px;
+	color: #fff;
+}
+
+.footer-bg {
+  opacity: 0.3;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+ .footer-content {
+  padding:  60px 200px 0  200px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-content li {
+	padding-bottom: 10px;
+}
+
+footer .footer-input {
+  margin: 70px 280px 50px 230px; 
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-input input {
+	padding: 13px 100px  13px 5px;
+	border: 1px solid #333;
+	border-radius: 5px;
+}
+
+#map {
+	height: 400px;
+	width: 100%;
+}
+.location {
+	margin: 60px  0 20px 100px;
+}
+.location h3 {
+	color: #ffffff;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.location p {
+	color: #ffffff;
+	font-size: 15px;
+}
+
+
+@media (min-width: 360px) and (max-width: 660px) {
+  body {
+  	font-size: 12px;
+  }
+  .side-header .side-icon {
+
+	font-size: 12px;
+}
+	.list-group {
+	display: flex;
+	padding: 5px;
+
+}
+.list-item {
+	padding-left: 5px;
+	list-style: none;
+}
+.list-item a{
+	text-decoration: none;
+}
+.sidepage {
+	display: block;
+	position: relative;
+}
+.sidepage .btn {
+	position: absolute;
+	top: 150px;
+	margin-left: 30px;
+	font-size: 10px;
+}
+.whatwedo .container {
+	display: block;
+	padding: 0;
+	margin: auto;
+	padding: 10px 30px 10px 30px;
+}
+.whatwedo .whatwedo-img {
+	width: 300px;
+}
+.our-services {
+	padding: 20px;
+}
+.our-services .title {
+	font-size: 30px;
+	text-align: center;
+	padding: 30px;
+	color: #fe0000;
+} 
+.our-services .container {
+	display: block;
+}
+.our-services .card {
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.our-professionals {
+	margin-bottom: 30px;
+}
+.our-professionals .container {
+	display: block;
+	margin: 0;
+}
+.our-professionals .card {
+	position: relative;
+	margin: 100px 35px 0 35px;
+	padding-top: 60px;
+}
+.our-professionals img {
+	border-radius: 150px;
+	position: absolute;
+	top: -70px;
+	left: 90px;
+}
+.our-fast-safe-service {
+	min-height: 100vh;
+}
+.our-fast-safe-service .container {
+	display: block;
+}
+.our-fast-safe-service .text{
+	padding: 0;
+	margin-bottom: 30px;
+}
+.our-fast-safe-service h5 {
+	padding: 30px;
+	font-size: 40px;
+	color: #fe0000;
+}
+.our-fast-safe-service img {
+	height: 70vh;
+}
+footer li {
+	list-style: none;
+	font-weight: bold;
+	width: 100px;
+	padding-left: 20px;
+}
+
+.footer-bg {
+  opacity: 0.3;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+ .footer-content {
+  padding:  10px 30px 10px  30px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-content li {
+	padding-bottom: 10px;
+}
+.footer-content h4 {
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+footer .footer-input {
+ display: none; 
+}
+footer {
+	height: 38vh;
+}
+.professionals-title {
+	font-size: 20px;
+}
+
+.location {
+	margin: 30px  0 20px 20px;
+}
+}
