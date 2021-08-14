@@ -28,7 +28,7 @@ body h4 {
 	background-size: contain;
 	background: 
 	no-repeat
-	url('')
+	url('https://www.wallpaperflare.com/static/346/983/682/simple-minimalism-red-white-wallpaper.jpg')
 }
 .side-header {
 	display: flex;
@@ -61,6 +61,11 @@ body h4 {
 	justify-content: space-between;
 	align-items: center;
 }
+.sidepage .mainpage-text {
+	padding: 0 300px 40px 20px;
+	opacity: 0.7;
+	color: #fff;
+}
 .whatwedo .container {
 	padding-left: 150px;
 	padding-right: 150px;
@@ -68,19 +73,15 @@ body h4 {
 .btn {
 	text-decoration: none;
 	background-color: #fe0000;
-	padding: 5px;
-	padding-right: 20px;
-	padding-left: 20px;
 	border:0.16em solid #FFFFFF;
 	color: #FFFFFF;
 	font-weight: bold;
 	font-size: 25px;
+	padding: 10px 20px 10px 20px;
 	border-radius: 50px;
+	margin-left: 20px;
 }
-.sidepage .btn {
-	margin-left: 45px;
-	margin-bottom: 45px;
-}
+
 
 .whatwedo h2 {
 	padding-bottom: 15px;
@@ -203,6 +204,39 @@ footer .footer-input input {
 	font-size: 15px;
 }
 
+.news .container {
+	align-items: flex-start;
+	text-align: left;
+	color: #fff;
+}
+.main-news {
+	width: 75%;
+	padding: 50px;
+}
+.main-news .news-item {
+	padding-bottom: 30px;
+}
+.main-news h5 {
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+.main-news p {
+	font-size: 20px;
+	padding-right: 50px;
+}
+.most-viewed-news {
+	width: 25%;
+	padding: 50px 30px;
+}
+.most-viewed-news .most-news-item {
+	padding: 15px 0 15px 0;
+}
+.most-viewed-news img {
+	width: 320px;
+}
+.most-viewed-news h5 {
+	font-size: 20px;s
+}
 
 @media (min-width: 360px) and (max-width: 660px) {
   body {
@@ -228,10 +262,10 @@ footer .footer-input input {
 	display: block;
 	position: relative;
 }
-.sidepage .btn {
+.sidepage .mainpage-content {
 	position: absolute;
 	top: 150px;
-	margin-left: 30px;
+	margin-left: 10px;
 	font-size: 10px;
 }
 .whatwedo .container {
