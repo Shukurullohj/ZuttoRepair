@@ -370,4 +370,25 @@ footer {
 .location {
 	margin: 30px  0 20px 20px;
 }
+.main-news {
+	width: 100%;
+	padding: 20px;
+}
+.main-news img {
+	width: 280px;
+}
+.main-news .news-item {
+	padding-bottom: 30px;
+}
+.main-news h5 {
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+.main-news p {
+	font-size: 10px;
+	padding-right: 50px;
+}
+.most-viewed-news {
+	display: none;
+}
 }
